@@ -22,23 +22,28 @@ El repositorio está dividido en 5 soluciones principales:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/BancaLafise.git
+git clone [https://github.com/tu-usuario/BancaLafise.git](https://github.com/LestD7u7/SolucionNet8.git)
 cd BancaLafise
+```
 
 ### 2. Configurar la cadena de conexión
 
 Abre el archivo appsettings.json en el proyecto BancaLafise.Api y actualiza la ruta de la base de datos SQLite según tu entorno:
 
+```bash
 "ConnectionStringsBD": {
   "SQLite": "Data Source=C:\\Ruta\\A\\Tu\\Proyecto\\BancaLafise.Infrastructure\\LAFISE.db"
 }
+```
 
 ### 3. Crear y aplicar la migración inicial
 
 Ubícate en la carpeta raíz del repositorio y ejecuta:
 
+```bash
 dotnet ef migrations add InitialCreate --project BancaLafise.Infrastructure
 dotnet ef database update --project BancaLafise.Infrastructure
+```
 
 ### 4. Iniciar la API
 
