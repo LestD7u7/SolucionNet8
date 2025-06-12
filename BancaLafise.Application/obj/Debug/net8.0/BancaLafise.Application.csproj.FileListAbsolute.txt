@@ -1,0 +1,15 @@
+C:\Proyectos\Lafise\SolucionNet8\BancaLafise.Application\bin\Debug\net8.0\BancaLafise.Application.deps.json
+C:\Proyectos\Lafise\SolucionNet8\BancaLafise.Application\bin\Debug\net8.0\BancaLafise.Application.dll
+C:\Proyectos\Lafise\SolucionNet8\BancaLafise.Application\bin\Debug\net8.0\BancaLafise.Application.pdb
+C:\Proyectos\Lafise\SolucionNet8\BancaLafise.Application\bin\Debug\net8.0\BancaLafise.Domain.dll
+C:\Proyectos\Lafise\SolucionNet8\BancaLafise.Application\bin\Debug\net8.0\BancaLafise.Domain.pdb
+C:\Proyectos\Lafise\SolucionNet8\BancaLafise.Application\obj\Debug\net8.0\BancaLafise.Application.csproj.AssemblyReference.cache
+C:\Proyectos\Lafise\SolucionNet8\BancaLafise.Application\obj\Debug\net8.0\BancaLafise.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\Lafise\SolucionNet8\BancaLafise.Application\obj\Debug\net8.0\BancaLafise.Application.AssemblyInfoInputs.cache
+C:\Proyectos\Lafise\SolucionNet8\BancaLafise.Application\obj\Debug\net8.0\BancaLafise.Application.AssemblyInfo.cs
+C:\Proyectos\Lafise\SolucionNet8\BancaLafise.Application\obj\Debug\net8.0\BancaLafise.Application.csproj.CoreCompileInputs.cache
+C:\Proyectos\Lafise\SolucionNet8\BancaLafise.Application\obj\Debug\net8.0\BancaLaf.515D27A3.Up2Date
+C:\Proyectos\Lafise\SolucionNet8\BancaLafise.Application\obj\Debug\net8.0\BancaLafise.Application.dll
+C:\Proyectos\Lafise\SolucionNet8\BancaLafise.Application\obj\Debug\net8.0\refint\BancaLafise.Application.dll
+C:\Proyectos\Lafise\SolucionNet8\BancaLafise.Application\obj\Debug\net8.0\BancaLafise.Application.pdb
+C:\Proyectos\Lafise\SolucionNet8\BancaLafise.Application\obj\Debug\net8.0\ref\BancaLafise.Application.dll

@@ -1,0 +1,326 @@
+[
+  {
+    "ContainingType": "BancaLafise.Api.Controllers.ClienteController",
+    "Method": "AgregarCuenta",
+    "RelativePath": "Cliente/agregar-cuenta-bancaria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TipoCuenta",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BancaLafise.Api.Controllers.CatalogosController",
+    "Method": "Obtener",
+    "RelativePath": "Cliente/catalogos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BancaLafise.Application.Common.Dtos.CatalogosResponseDto, BancaLafise.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BancaLafise.Api.Controllers.ClienteController",
+    "Method": "ConsultarCuentas",
+    "RelativePath": "Cliente/consultar-cuentas-disponibles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BancaLafise.Application.Common.Dtos.CuentaBancariaDto, BancaLafise.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BancaLafise.Api.Controllers.ClienteController",
+    "Method": "ConsultarCuenta",
+    "RelativePath": "Cliente/consultar-saldo-cuenta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Numero",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BancaLafise.Application.Common.Dtos.CuentasBancariasResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BancaLafise.Api.Controllers.ClienteController",
+    "Method": "Login",
+    "RelativePath": "Cliente/generar-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Usuario",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Clave",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BancaLafise.Application.Common.Dtos.TokenResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BancaLafise.Api.Controllers.CatalogosController",
+    "Method": "Registro",
+    "RelativePath": "Cliente/registro-catalogos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BancaLafise.Api.Controllers.ClienteController",
+    "Method": "Registro",
+    "RelativePath": "Cliente/registro-cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "BancaLafise.Application.Features.Cliente.Commands.CrearClienteCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BancaLafise.Api.Controllers.TransaccionController",
+    "Method": "AplicaInteres",
+    "RelativePath": "Transaccion/aplicar-interes-compuesto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NumeroCuenta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PorcentajeInteres",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BancaLafise.Api.Controllers.TransaccionController",
+    "Method": "DepositoTercero",
+    "RelativePath": "Transaccion/deposito-a-tercero",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NumeroCuentaOrigen",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumeroCuentaDestino",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Monto",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BancaLafise.Api.Controllers.TransaccionController",
+    "Method": "DepositoEfectivo",
+    "RelativePath": "Transaccion/deposito-efectivo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NumeroCuentaDestino",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Monto",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BancaLafise.Api.Controllers.TransaccionController",
+    "Method": "HistorialCuenta",
+    "RelativePath": "Transaccion/historial-transacciones-cuenta",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NumeroCuenta",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BancaLafise.Application.Common.Dtos.HistorialTransaccionesResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BancaLafise.Api.Controllers.TransaccionController",
+    "Method": "RetiroEfectivo",
+    "RelativePath": "Transaccion/retiro-efectivo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NumeroCuentaOrigen",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Monto",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

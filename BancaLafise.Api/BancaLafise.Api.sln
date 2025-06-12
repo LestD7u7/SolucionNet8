@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancaLafise.Api", "BancaLafise.Api.csproj", "{714A412F-A593-474A-8C8C-C0E112832F0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancaLafise.Application", "..\BancaLafise.Application\BancaLafise.Application.csproj", "{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancaLafise.Domain", "..\BancaLafise.Domain\BancaLafise.Domain.csproj", "{F11AF70B-69FE-4316-A648-95FD794B1494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancaLafise.Infrastructure", "..\BancaLafise.Infrastructure\BancaLafise.Infrastructure.csproj", "{A1E6D794-FD6C-413F-A9D1-7DE477563496}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "..\UnitTests\UnitTests.csproj", "{704A8803-FAA0-4FC5-B1A0-5E5D1152EAF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{714A412F-A593-474A-8C8C-C0E112832F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{714A412F-A593-474A-8C8C-C0E112832F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{714A412F-A593-474A-8C8C-C0E112832F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{714A412F-A593-474A-8C8C-C0E112832F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F11AF70B-69FE-4316-A648-95FD794B1494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F11AF70B-69FE-4316-A648-95FD794B1494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F11AF70B-69FE-4316-A648-95FD794B1494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F11AF70B-69FE-4316-A648-95FD794B1494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E6D794-FD6C-413F-A9D1-7DE477563496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E6D794-FD6C-413F-A9D1-7DE477563496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E6D794-FD6C-413F-A9D1-7DE477563496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E6D794-FD6C-413F-A9D1-7DE477563496}.Release|Any CPU.Build.0 = Release|Any CPU
+		{704A8803-FAA0-4FC5-B1A0-5E5D1152EAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704A8803-FAA0-4FC5-B1A0-5E5D1152EAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704A8803-FAA0-4FC5-B1A0-5E5D1152EAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704A8803-FAA0-4FC5-B1A0-5E5D1152EAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

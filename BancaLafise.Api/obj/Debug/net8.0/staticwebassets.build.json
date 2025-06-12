@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "IYxFqk0JH6KS4O8VMYn0n6xx2QEx5AT0OFwB3c432Xw=",
+  "Source": "BancaLafise.Api",
+  "BasePath": "_content/BancaLafise.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

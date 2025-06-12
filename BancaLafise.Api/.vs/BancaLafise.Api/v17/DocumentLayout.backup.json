@@ -1,0 +1,685 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{704A8803-FAA0-4FC5-B1A0-5E5D1152EAF7}|..\\UnitTests\\UnitTests.csproj|c:\\proyectos\\lafise\\solucionnet8\\unittests\\features\\createaccounttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704A8803-FAA0-4FC5-B1A0-5E5D1152EAF7}|..\\UnitTests\\UnitTests.csproj|c:\\proyectos\\lafise\\solucionnet8\\unittests\\features\\deposittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704A8803-FAA0-4FC5-B1A0-5E5D1152EAF7}|..\\UnitTests\\UnitTests.csproj|c:\\proyectos\\lafise\\solucionnet8\\unittests\\features\\historialtransaccionestests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704A8803-FAA0-4FC5-B1A0-5E5D1152EAF7}|..\\UnitTests\\UnitTests.csproj|c:\\proyectos\\lafise\\solucionnet8\\unittests\\features\\interesestest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{704A8803-FAA0-4FC5-B1A0-5E5D1152EAF7}|..\\UnitTests\\UnitTests.csproj|c:\\proyectos\\lafise\\solucionnet8\\unittests\\features\\retirotest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\features\\transaccion\\queries\\historialtransaccionescuentaquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714A412F-A593-474A-8C8C-C0E112832F0C}|BancaLafise.Api.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.api\\controllers\\transaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714A412F-A593-474A-8C8C-C0E112832F0C}|BancaLafise.Api.csproj|solutionrelative:controllers\\transaccioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\features\\transaccion\\commands\\aplicarinterescompuestocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\features\\transaccion\\commands\\retiroefectivocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\features\\transaccion\\commands\\depositoefectivocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\features\\cliente\\commands\\agregarcuentabancariacommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714A412F-A593-474A-8C8C-C0E112832F0C}|BancaLafise.Api.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.api\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714A412F-A593-474A-8C8C-C0E112832F0C}|BancaLafise.Api.csproj|solutionrelative:controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\features\\cliente\\commands\\crearclientecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\features\\admincatalogos\\consultarcatalogosbasequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714A412F-A593-474A-8C8C-C0E112832F0C}|BancaLafise.Api.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.api\\controllers\\catalogoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714A412F-A593-474A-8C8C-C0E112832F0C}|BancaLafise.Api.csproj|solutionrelative:controllers\\catalogoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\common\\dtos\\catalogosresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\features\\admincatalogos\\insertarcatalogosbasecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\features\\transaccion\\commands\\depositoentrecuentasterceroscommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\features\\cliente\\commands\\iniciosesioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\common\\dtos\\historialtransaccionesresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\features\\cliente\\queries\\obtenercuentasbancariasquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\features\\cliente\\queries\\obtenercuentabancariabynumeroquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\common\\dtos\\cuentabancariadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\common\\dtos\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6D794-FD6C-413F-A9D1-7DE477563496}|..\\BancaLafise.Infrastructure\\BancaLafise.Infrastructure.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.infrastructure\\repository\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\interfaces\\icuentabancariarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6D794-FD6C-413F-A9D1-7DE477563496}|..\\BancaLafise.Infrastructure\\BancaLafise.Infrastructure.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.infrastructure\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F11AF70B-69FE-4316-A648-95FD794B1494}|..\\BancaLafise.Domain\\BancaLafise.Domain.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.domain\\entities\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6D794-FD6C-413F-A9D1-7DE477563496}|..\\BancaLafise.Infrastructure\\BancaLafise.Infrastructure.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.infrastructure\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\interfaces\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6D794-FD6C-413F-A9D1-7DE477563496}|..\\BancaLafise.Infrastructure\\BancaLafise.Infrastructure.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.infrastructure\\repository\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714A412F-A593-474A-8C8C-C0E112832F0C}|BancaLafise.Api.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714A412F-A593-474A-8C8C-C0E112832F0C}|BancaLafise.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714A412F-A593-474A-8C8C-C0E112832F0C}|BancaLafise.Api.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.api\\services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{714A412F-A593-474A-8C8C-C0E112832F0C}|BancaLafise.Api.csproj|solutionrelative:services\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6D794-FD6C-413F-A9D1-7DE477563496}|..\\BancaLafise.Infrastructure\\BancaLafise.Infrastructure.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.infrastructure\\auth\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\interfaces\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{714A412F-A593-474A-8C8C-C0E112832F0C}|BancaLafise.Api.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{714A412F-A593-474A-8C8C-C0E112832F0C}|BancaLafise.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E0891ED-3E33-4A07-A6F2-0BC3B07BA2F3}|..\\BancaLafise.Application\\BancaLafise.Application.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.application\\interfaces\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1E6D794-FD6C-413F-A9D1-7DE477563496}|..\\BancaLafise.Infrastructure\\BancaLafise.Infrastructure.csproj|c:\\proyectos\\lafise\\solucionnet8\\bancalafise.infrastructure\\repository\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 371,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DepositoEfectivoCommand.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Transaccion\\Commands\\DepositoEfectivoCommand.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Features\\Transaccion\\Commands\\DepositoEfectivoCommand.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Transaccion\\Commands\\DepositoEfectivoCommand.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Features\\Transaccion\\Commands\\DepositoEfectivoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T10:03:37.387Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AplicarInteresCompuestoCommand.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Transaccion\\Commands\\AplicarInteresCompuestoCommand.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Features\\Transaccion\\Commands\\AplicarInteresCompuestoCommand.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Transaccion\\Commands\\AplicarInteresCompuestoCommand.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Features\\Transaccion\\Commands\\AplicarInteresCompuestoCommand.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwD8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T17:15:55.985Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConsultarCatalogosBaseQuery.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\AdminCatalogos\\ConsultarCatalogosBaseQuery.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Features\\AdminCatalogos\\ConsultarCatalogosBaseQuery.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\AdminCatalogos\\ConsultarCatalogosBaseQuery.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Features\\AdminCatalogos\\ConsultarCatalogosBaseQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:35:40.62Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HistorialTransaccionesTests.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\UnitTests\\Features\\HistorialTransaccionesTests.cs",
+              "RelativeDocumentMoniker": "..\\UnitTests\\Features\\HistorialTransaccionesTests.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\UnitTests\\Features\\HistorialTransaccionesTests.cs",
+              "RelativeToolTip": "..\\UnitTests\\Features\\HistorialTransaccionesTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:44:04.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InteresesTest.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\UnitTests\\Features\\InteresesTest.cs",
+              "RelativeDocumentMoniker": "..\\UnitTests\\Features\\InteresesTest.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\UnitTests\\Features\\InteresesTest.cs",
+              "RelativeToolTip": "..\\UnitTests\\Features\\InteresesTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:42:45.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RetiroTest.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\UnitTests\\Features\\RetiroTest.cs",
+              "RelativeDocumentMoniker": "..\\UnitTests\\Features\\RetiroTest.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\UnitTests\\Features\\RetiroTest.cs",
+              "RelativeToolTip": "..\\UnitTests\\Features\\RetiroTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:41:14.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepositTests.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\UnitTests\\Features\\DepositTests.cs",
+              "RelativeDocumentMoniker": "..\\UnitTests\\Features\\DepositTests.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\UnitTests\\Features\\DepositTests.cs",
+              "RelativeToolTip": "..\\UnitTests\\Features\\DepositTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:36:06.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateAccountTests.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\UnitTests\\Features\\CreateAccountTests.cs",
+              "RelativeDocumentMoniker": "..\\UnitTests\\Features\\CreateAccountTests.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\UnitTests\\Features\\CreateAccountTests.cs",
+              "RelativeToolTip": "..\\UnitTests\\Features\\CreateAccountTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:32:28.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransaccionController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Api\\Controllers\\TransaccionController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TransaccionController.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Api\\Controllers\\TransaccionController.cs",
+              "RelativeToolTip": "Controllers\\TransaccionController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCkAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T10:26:39.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RetiroEfectivoCommand.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Transaccion\\Commands\\RetiroEfectivoCommand.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Features\\Transaccion\\Commands\\RetiroEfectivoCommand.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Transaccion\\Commands\\RetiroEfectivoCommand.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Features\\Transaccion\\Commands\\RetiroEfectivoCommand.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwEIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T10:40:30.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HistorialTransaccionesCuentaQuery.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Transaccion\\Queries\\HistorialTransaccionesCuentaQuery.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Features\\Transaccion\\Queries\\HistorialTransaccionesCuentaQuery.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Transaccion\\Queries\\HistorialTransaccionesCuentaQuery.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Features\\Transaccion\\Queries\\HistorialTransaccionesCuentaQuery.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAEYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T14:57:01.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AgregarCuentaBancariaCommand.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Cliente\\Commands\\AgregarCuentaBancariaCommand.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Features\\Cliente\\Commands\\AgregarCuentaBancariaCommand.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Cliente\\Commands\\AgregarCuentaBancariaCommand.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Features\\Cliente\\Commands\\AgregarCuentaBancariaCommand.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwD8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T06:20:29.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Api\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Api\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBoAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:51:16.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CrearClienteCommand.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Cliente\\Commands\\CrearClienteCommand.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Features\\Cliente\\Commands\\CrearClienteCommand.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Cliente\\Commands\\CrearClienteCommand.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Features\\Cliente\\Commands\\CrearClienteCommand.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T05:46:19.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DepositoEntreCuentasTercerosCommand.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Transaccion\\Commands\\DepositoEntreCuentasTercerosCommand.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Features\\Transaccion\\Commands\\DepositoEntreCuentasTercerosCommand.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Transaccion\\Commands\\DepositoEntreCuentasTercerosCommand.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Features\\Transaccion\\Commands\\DepositoEntreCuentasTercerosCommand.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswDAAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T14:27:45.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CatalogosResponseDto.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Common\\Dtos\\CatalogosResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Common\\Dtos\\CatalogosResponseDto.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Common\\Dtos\\CatalogosResponseDto.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Common\\Dtos\\CatalogosResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:50:02.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CatalogosController.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Api\\Controllers\\CatalogosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CatalogosController.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Api\\Controllers\\CatalogosController.cs",
+              "RelativeToolTip": "Controllers\\CatalogosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:05:18.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InsertarCatalogosBaseCommand.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\AdminCatalogos\\InsertarCatalogosBaseCommand.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Features\\AdminCatalogos\\InsertarCatalogosBaseCommand.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\AdminCatalogos\\InsertarCatalogosBaseCommand.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Features\\AdminCatalogos\\InsertarCatalogosBaseCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T02:15:31.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "InicioSesionCommand.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Cliente\\Commands\\InicioSesionCommand.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Features\\Cliente\\Commands\\InicioSesionCommand.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Cliente\\Commands\\InicioSesionCommand.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Features\\Cliente\\Commands\\InicioSesionCommand.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T05:54:33.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ObtenerCuentaBancariaByNumeroQuery.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Cliente\\Queries\\ObtenerCuentaBancariaByNumeroQuery.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Features\\Cliente\\Queries\\ObtenerCuentaBancariaByNumeroQuery.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Cliente\\Queries\\ObtenerCuentaBancariaByNumeroQuery.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Features\\Cliente\\Queries\\ObtenerCuentaBancariaByNumeroQuery.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwDAAAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T08:49:34.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ObtenerCuentasBancariasQuery.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Cliente\\Queries\\ObtenerCuentasBancariasQuery.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Features\\Cliente\\Queries\\ObtenerCuentasBancariasQuery.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Features\\Cliente\\Queries\\ObtenerCuentasBancariasQuery.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Features\\Cliente\\Queries\\ObtenerCuentasBancariasQuery.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwB8AAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T09:12:22.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HistorialTransaccionesResponseDto.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Common\\Dtos\\HistorialTransaccionesResponseDto.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Common\\Dtos\\HistorialTransaccionesResponseDto.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Common\\Dtos\\HistorialTransaccionesResponseDto.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Common\\Dtos\\HistorialTransaccionesResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T14:58:50.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CuentaBancariaDto.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Common\\Dtos\\CuentaBancariaDto.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Common\\Dtos\\CuentaBancariaDto.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Common\\Dtos\\CuentaBancariaDto.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Common\\Dtos\\CuentaBancariaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T09:03:55.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Infrastructure\\Repository\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Infrastructure\\Repository\\TransactionRepository.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Infrastructure\\Repository\\TransactionRepository.cs",
+              "RelativeToolTip": "..\\BancaLafise.Infrastructure\\Repository\\TransactionRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T09:46:13.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ClienteDto.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Common\\Dtos\\ClienteDto.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Common\\Dtos\\ClienteDto.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Common\\Dtos\\ClienteDto.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Common\\Dtos\\ClienteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T06:11:46.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ICuentaBancariaRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Interfaces\\ICuentaBancariaRepository.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Interfaces\\ICuentaBancariaRepository.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Interfaces\\ICuentaBancariaRepository.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Interfaces\\ICuentaBancariaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:23:14.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Infrastructure\\Repository\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Infrastructure\\Repository\\BaseRepository.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Infrastructure\\Repository\\BaseRepository.cs",
+              "RelativeToolTip": "..\\BancaLafise.Infrastructure\\Repository\\BaseRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T05:21:07.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Domain\\Entities\\Transaccion.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Domain\\Entities\\Transaccion.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Domain\\Entities\\Transaccion.cs",
+              "RelativeToolTip": "..\\BancaLafise.Domain\\Entities\\Transaccion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:15:34.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ConfigureServices.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Infrastructure\\ConfigureServices.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Infrastructure\\ConfigureServices.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Infrastructure\\ConfigureServices.cs",
+              "RelativeToolTip": "..\\BancaLafise.Infrastructure\\ConfigureServices.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T05:07:51.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Interfaces\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Interfaces\\IUsuarioRepository.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Interfaces\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T05:51:41.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Infrastructure\\Repository\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Infrastructure\\Repository\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Infrastructure\\Repository\\UsuarioRepository.cs",
+              "RelativeToolTip": "..\\BancaLafise.Infrastructure\\Repository\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAcAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T05:51:39.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAhwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T06:16:05.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ICurrentUserService.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Interfaces\\ICurrentUserService.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Interfaces\\ICurrentUserService.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Interfaces\\ICurrentUserService.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Interfaces\\ICurrentUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:39:11.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CurrentUserService.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Api\\Services\\CurrentUserService.cs",
+              "RelativeDocumentMoniker": "Services\\CurrentUserService.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Api\\Services\\CurrentUserService.cs",
+              "RelativeToolTip": "Services\\CurrentUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:44:20.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Infrastructure\\Auth\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Infrastructure\\Auth\\JwtTokenGenerator.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Infrastructure\\Auth\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "..\\BancaLafise.Infrastructure\\Auth\\JwtTokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T07:45:35.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T06:30:15.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IClienteRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Interfaces\\IClienteRepository.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\Interfaces\\IClienteRepository.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\Interfaces\\IClienteRepository.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\Interfaces\\IClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T05:47:29.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AutoMapperConfig.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\AutoMapperConfig.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\AutoMapperConfig.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\AutoMapperConfig.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\AutoMapperConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T06:13:41.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ConfigureServices.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\ConfigureServices.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Application\\ConfigureServices.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Application\\ConfigureServices.cs",
+              "RelativeToolTip": "..\\BancaLafise.Application\\ConfigureServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T06:16:01.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Infrastructure\\Repository\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "..\\BancaLafise.Infrastructure\\Repository\\ClienteRepository.cs",
+              "ToolTip": "C:\\Proyectos\\Lafise\\SolucionNet8\\BancaLafise.Infrastructure\\Repository\\ClienteRepository.cs",
+              "RelativeToolTip": "..\\BancaLafise.Infrastructure\\Repository\\ClienteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T05:47:44.282Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
