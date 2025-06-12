@@ -22,7 +22,7 @@ El repositorio está dividido en 5 soluciones principales:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/BancaLafise.git
+git clone [https://github.com/tu-usuario/BancaLafise.git](https://github.com/LestD7u7/SolucionNet8.git)
 cd BancaLafise
 ```
 
